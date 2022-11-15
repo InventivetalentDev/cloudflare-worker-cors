@@ -1,0 +1,7 @@
+{
+  "name": "cloudflare-worker-cors",
+  "version": "",
+  "main": "worker.js",
+  "dependencies": {
+  }
+}

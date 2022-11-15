@@ -1,0 +1,11 @@
+name = "cloudflare-worker-cors"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-11-15"
+
+[vars]
+ORIGIN_WHITELIST="https://mineskin.org,https://mcasset.cloud"
