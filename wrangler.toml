@@ -1,8 +1,6 @@
 name = "cloudflare-worker-cors"
-type = "webpack"
-route = ''
-zone_id = ''
-usage_model = ''
+main = 'worker.js'
+usage_model = 'unbound'
 compatibility_flags = []
 workers_dev = true
 compatibility_date = "2022-11-15"
