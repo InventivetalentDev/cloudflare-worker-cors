@@ -12,6 +12,12 @@ const corsHeaders = {
 async function handleRequest(request) {
     const url = new URL(request.url);
     let apiUrl = url.searchParams.get('url');
+    if (!apiUrl) {
+        return new Response(null, {
+            status: 400,
+            statusText: 'Bad Request',
+        });
+    }
 
     const origin = request.headers.get("Origin");
 
